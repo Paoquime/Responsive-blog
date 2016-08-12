@@ -17,6 +17,15 @@ header img {
 	margin-left: 18%;
 }
 
+.icono {
+    font-size: 45px;
+    display: none;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    color:white;
+}
+
 .menu {
 	margin: 5%;
 }
@@ -179,9 +188,49 @@ footer p {
 }
 
 @media screen and (max-width : 920px) {
-
+	.icono {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    h1 {
+    	font-size: 4em;
+    }
 }
 
 @media screen and (max-width: 600px) {
+	img {
+		margin: 2%;
+	}
+	.icono {
+		margin: 3%;
+		font-size: 3em;
+	}
 
+	h1 {
+		font-size: 4em;
+	}
+
+	.margen {
+		margin: 0%;
+	}
+
+	.imagen {
+		margin: 0%;
+	}
+
+	.contorno {
+		margin-left: 4%;
+	}
+
+	.text-down {
+		margin-top: -3%;
+	    height: 100px;
+	    width: 100%
+	}
+
+	.section-tres .col-4 {
+		display: none;
+	}
 }
