@@ -1,0 +1,187 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2D2735;
+	color: #FFF;
+}
+
+.fondo {
+	background-color: #1C1821;
+	height: 100px;
+}
+
+header img {
+	width: 50%;
+	margin-left: 18%;
+}
+
+.menu {
+	margin: 5%;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: #FFF;
+}
+
+a:hover {
+	color: #F7BA6A;
+}
+
+.aheader {
+	margin-left: 3%;
+	font-family: sans-serif;
+	font-style: italic;  	
+}
+
+.fondo-uno {
+	background-image: url("../image/image2.jpg");
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+    margin: 4% 0%;
+}
+
+.contenido-centro {
+	text-align: center;
+	background-color: #1C1821;
+	color: #FFF;
+    margin-top: 7%;
+    margin-left: 12%;
+    width: 75%;
+    height: 240px; 
+}
+
+h1 {
+	font-family: courgette;
+	font-size: 6em;
+	padding-top: 5%;
+	color: #F7BA6A;
+}
+
+.sec-uno {
+	margin-top: 4%;
+	font-family: sans-serif;
+}
+
+.a-uno {
+	margin-left: 3%;
+}
+
+span {
+	padding: 0% 3%;
+}
+
+.section-dos {
+	margin-left: 1.5%;
+}
+
+.margen {
+	margin: 0 4% 0 0;
+}
+
+.text-down {
+	background-color: #1C1821;
+	margin-top: -2%;
+    height: 100px;
+}
+
+.enlaces {
+	margin-left: 17%;
+	margin-top: 3%; 
+}
+
+h2 {
+	font-family: courgette;
+	font-size: 1.5em;
+	color: #F7BA6A;
+	text-align: center;
+    padding-top: 5%;
+}
+
+.section-tres {
+	margin-top: 4%;
+}
+
+.contorno {
+	background-color: #1C1821;
+	margin-right: 5%;
+	margin-bottom: 8%;
+}
+
+.sec-tres {
+	text-align: center;
+    margin: 2%;
+    font-size: 1.1em;
+}
+
+.buscar {
+	padding: 6%;
+    background-color: #1C1821;
+    border-radius: 2%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.search {
+    background-color: #2D2735;
+    padding: 6%;
+    border-radius: 2%;
+    width: 100%;
+}
+
+.about {
+	width: 100%;
+	height: 100%;
+    padding-bottom: 5%;
+}
+
+.margin {
+	margin-bottom: 1.5%;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.round-icon {
+	padding: 3%;
+	margin: 2%;
+	border-radius: 50%;
+	background-color: #2D2735; 
+}
+
+.round-icon:hover {
+	color: #F7BA6A;
+	background-color: #FFF;
+	padding: 4%;
+}
+
+p {
+	font-family: sans-serif;
+	padding: 2%;
+}
+
+footer p {
+	background-color: #1C1821;
+	padding: 20px;
+	margin:0;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.afooter {
+	color: #2D2735;
+}
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
